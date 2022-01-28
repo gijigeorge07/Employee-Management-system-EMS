@@ -218,7 +218,7 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
                         </div>
 
                         <div class="input-group">
-                        <label>epartment</label>
+                        <label>Department</label>
 
                             <input class="input--style-1" type="text" name="dept" value="<?php echo $dept;?>">
                         </div>
