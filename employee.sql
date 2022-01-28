@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 28, 2022 at 02:53 PM
+-- Generation Time: Jan 28, 2022 at 03:40 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.4
 
@@ -68,12 +68,10 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`id`, `firstName`, `lastName`, `email`, `password`, `birthday`, `gender`, `contact`, `nid`, `address`, `dept`, `degree`, `pic`) VALUES
-(3, 'Alan', 'A', 'alan12@gmail.com', '1234', '1996-07-24', 'Male', '1234567890', 12, 'qwertyasdfgh', 'Engineering', 'B.Tech', 'images/sw-google.png'),
-(4, 'Anu', 'A', 'anu@gmail.com', '1234', '1997-11-12', 'Female', '9087654321', 21, 'qwerty', 'eng', 'eng', 'images/jon-snow.jpg'),
-(5, 'Amal', 'A', 'amal@gmail.com', '1234', '1988-06-07', 'Male', '1234234512', 12, 'asdfg', 'sdfh', 'sdfg', 'images/330px-Elon_Musk_Royal_Society.jpg'),
-(6, 'Ammu', 'A', 'ammu@gmail.com', '1234', '1998-03-10', '', '123456787654', 123, 'zxcvn', 'zx zxc', 'ASDFG', 'images/330px-Elon_Musk_Royal_Society.jpg'),
-(7, 'SDFGH', 'DFGNM', 'ASD@GHJJ.CIO', '1234', '2022-01-12', 'Male', '23456', 34, 'SDFGH', 'SXDCFVG', 'ZXCV', 'images/jon-snow.jpg'),
-(9, 'qwert', 'ASDFG', 'ASD@ASDFG.NOM', '1234', '2022-01-14', 'Female', '123456789', 23, 'ASDFGH', 'DFGH', 'DFGH', 'images/download (1).jpeg');
+(10, 'Anu', 'A', 'anu@gmail.com', '1234', '1993-10-12', 'Female', '987612340', 101, 'Anu villa', 'Engineering', 'B.Tech', 'images/manuspillai.jpg'),
+(11, 'Alan', 'S', 'alan@gmail.com', '1234', '1996-06-20', 'Female', '978645312', 102, 'Alan villa', 'HR', 'MBA', 'images/330px-Elon_Musk_Royal_Society.jpg'),
+(12, 'Ammu', 'L', 'ammu@gmail.com', '1234', '1995-06-22', 'Male', '968735412', 103, 'Ammu villa', 'Accountant', 'M.Com', 'images/arundhatiroy.jpg'),
+(13, 'Alvin', 'M', 'alvin@gmail.com', '1234', '1996-07-26', 'Male', '948576123', 104, 'Alvin villa', 'HR', 'MBA', 'images/download (1).jpeg');
 
 -- --------------------------------------------------------
 
@@ -96,7 +94,8 @@ CREATE TABLE `project` (
 --
 
 INSERT INTO `project` (`pid`, `eid`, `pname`, `duedate`, `subdate`, `mark`, `status`) VALUES
-(1, 2, 'qwerty', '2022-01-29', '0000-00-00', 5, 'Due');
+(2, 10, 'Bot Creation', '2022-02-01', '0000-00-00', 2, 'Due'),
+(3, 11, 'Payroll Collection', '2022-02-02', '0000-00-00', 0, 'Due');
 
 -- --------------------------------------------------------
 
@@ -114,15 +113,10 @@ CREATE TABLE `rank` (
 --
 
 INSERT INTO `rank` (`eid`, `points`) VALUES
-(1, 0),
-(2, 5),
-(3, 0),
-(4, 0),
-(5, 0),
-(6, 0),
-(7, 0),
-(8, 0),
-(9, 0);
+(10, 2),
+(11, 0),
+(12, 0),
+(13, 0);
 
 --
 -- Indexes for dumped tables
@@ -168,19 +162,19 @@ ALTER TABLE `adminlogin`
 -- AUTO_INCREMENT for table `employee`
 --
 ALTER TABLE `employee`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `project`
 --
 ALTER TABLE `project`
-  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `rank`
 --
 ALTER TABLE `rank`
-  MODIFY `eid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `eid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -35,7 +35,7 @@ $result = mysqli_query($conn, $sql);
     />
     <link rel="stylesheet" type="text/css" href="../sample.css" />
     <link rel="stylesheet" type="text/css" href="./view.css">
-    <title>EMS | HOME</title>
+    <title>EMS | EMPLOYEE- DETAILS</title>
   </head>
   <body class="hero-anime">
     <div class="navigation-wrap start-header start-style">

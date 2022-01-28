@@ -88,7 +88,7 @@ if(isset($_POST['update']))
     />
     <link rel="stylesheet" type="text/css" href="../sample.css" />
     <link rel="stylesheet" type="text/css" href="./main.css" />
-    <title>EMS | HOME</title>
+    <title>EMS | PROFILE-UPDATE</title>
   </head>
   <body class="hero-anime">
     <div class="navigation-wrap start-header start-style">

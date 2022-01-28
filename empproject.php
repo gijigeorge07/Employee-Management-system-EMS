@@ -33,7 +33,7 @@
     />
     <link rel="stylesheet" type="text/css" href="./sample.css" />
     <link rel="stylesheet" type="text/css" href="./view.css" />
-    <title>EMS | ADMIN-LOGIN</title>
+    <title>EMS | PROJECTS</title>
   </head>
   <body class="hero-anime">
     <div class="navigation-wrap start-header start-style">

@@ -93,7 +93,7 @@ $result = mysqli_query($conn, "UPDATE `employee` SET `firstName`='$firstname',`l
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
     <link rel="stylesheet" type="text/css" href="../sample.css" />
     <link rel="stylesheet" type="text/css" href="./main.css">
-    <title>EMS | HOME</title>
+    <title>EMS | UPDATE</title>
   </head>
   <body class="hero-anime">
     <div class="navigation-wrap start-header start-style">
